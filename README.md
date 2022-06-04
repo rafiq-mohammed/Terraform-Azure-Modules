@@ -26,3 +26,18 @@ vnet_array = {
     resource_group = "DEUSNETRAFARG01"  
   }  
 }  
+
+## 3. Subnet
+
+subnet_array = {  
+  deussvcrafasn01 = {  
+    address        = "192.168.1.0/24"  
+    resource_group = "DEUSNETRAFARG01"  
+    vnet_name      = "deussvcrafavn01"  
+  },  
+  deussvcrafasn02 = {  
+    address        = "192.168.2.0/24"  
+    resource_group = "DEUSNETRAFARG01"  
+    vnet_name      = "deussvcrafavn01"  
+  }  
+}  
