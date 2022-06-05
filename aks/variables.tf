@@ -1,0 +1,21 @@
+#AKS"
+variable "aks_name" {}
+variable "aks_location" {}
+variable "aks_rg_name" {}
+variable "private_cluster_enabled" {}
+variable "admin_username" {}
+variable "public_ssh_key" {}
+variable "vm_size" {}
+variable "vnet_subnet_id" {}
+variable "enable_auto_scaling" {}
+variable "initial_node_count" {}
+variable "min_node_count" {}
+variable "max_node_count" {}
+variable "max_pods" {}
+variable "network_plugin" {}
+variable "service_cidr" {}
+variable "dns_service_ip" {}
+variable "docker_bridge_cidr" {}
+variable "pod_cidr" {}
+variable "client_id" {}
+variable "client_secret" {}
